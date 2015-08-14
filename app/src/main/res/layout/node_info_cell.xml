@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/nodeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/abc_ic_search_api_mtrl_alpha"
+        android:adjustViewBounds="false"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/nodeCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="XXXXX"
+        android:textIsSelectable="false"
+        android:textColor="#ff63bcff"
+        android:layout_toRightOf="@id/nodeImg"
+        android:layout_toEndOf="@id/nodeImg" />
+
+    <TextView
+        android:id="@+id/nodeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="XXXXX"
+        android:textIsSelectable="false"
+        android:textColor="#ff000000"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_below="@+id/nodeCategoryName"
+        android:layout_toRightOf="@+id/nodeImg" />
+
+    <TextView
+        android:id="@+id/nodePageNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="XXXXX"
+
+        android:textIsSelectable="false"
+        android:textColor="#ff63bcff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
